@@ -1,0 +1,26 @@
+[
+  {
+    "id": 3,
+    "caption": "",
+    "photo": "assets/images/featured/6957c417180a4_1767359511.jpeg",
+    "order": 1
+  },
+  {
+    "id": 1,
+    "caption": "",
+    "photo": "assets/images/featured/6957c3d95743f_1767359449.jpeg",
+    "order": 2
+  },
+  {
+    "id": 2,
+    "caption": "",
+    "photo": "assets/images/featured/6957c3fb2dcb7_1767359483.jpeg",
+    "order": 3
+  },
+  {
+    "id": 4,
+    "caption": "",
+    "photo": "assets/images/featured/6957c42c61d2d_1767359532.jpeg",
+    "order": 4
+  }
+]

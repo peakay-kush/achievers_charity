@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Facebook",
+    "url": "https://facebook.com/achieverscharity",
+    "type": "social",
+    "active": true
+  },
+  {
+    "id": 2,
+    "title": "Twitter",
+    "url": "https://twitter.com/achieverscharity",
+    "type": "social",
+    "active": true
+  },
+  {
+    "id": 3,
+    "title": "Instagram",
+    "url": "https://instagram.com/achieverscharity",
+    "type": "social",
+    "active": true
+  },
+  {
+    "id": 4,
+    "title": "M-Pesa Donation",
+    "url": "#mpesa",
+    "type": "donation",
+    "active": true
+  }
+]

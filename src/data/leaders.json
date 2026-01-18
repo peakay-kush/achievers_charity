@@ -1,0 +1,79 @@
+[
+  {
+    "id": 13,
+    "name": "Pius Muriithi",
+    "role": "Admin",
+    "photo": "assets/images/leaders/6957e2e614ad3_1767367398.jpeg",
+    "order": 1
+  },
+  {
+    "id": 12,
+    "name": "zipporah kihiu",
+    "role": "Chairlady",
+    "photo": "/assets/images/logo.png",
+    "order": 2
+  },
+  {
+    "id": 3,
+    "name": "peter kuria",
+    "role": "Vice chair",
+    "photo": "assets/images/leaders/6957bd85dfa87_1767357829.jpeg",
+    "order": 3
+  },
+  {
+    "id": 4,
+    "name": "Samuel Ndegwa",
+    "role": "Treasurer",
+    "photo": "assets/images/leaders/6957baef1d443_1767357167.jpeg",
+    "order": 4
+  },
+  {
+    "id": 5,
+    "name": "Grace Njoki",
+    "role": "Coordinator",
+    "photo": "/assets/images/logo.png",
+    "order": 5
+  },
+  {
+    "id": 6,
+    "name": "Joseph",
+    "role": "Vice Coordinator",
+    "photo": "/assets/images/logo.png",
+    "order": 6
+  },
+  {
+    "id": 14,
+    "name": "Hannah Nyutu",
+    "role": "Secretary",
+    "photo": "/assets/images/logo.png",
+    "order": 7
+  },
+  {
+    "id": 8,
+    "name": "Christine",
+    "role": "Vice Secretary",
+    "photo": "/assets/images/logo.png",
+    "order": 8
+  },
+  {
+    "id": 9,
+    "name": "Dennis Hoto",
+    "role": "Discipline Master",
+    "photo": "/assets/images/logo.png",
+    "order": 9
+  },
+  {
+    "id": 10,
+    "name": "Njoroge",
+    "role": "Member's Representative",
+    "photo": "/assets/images/logo.png",
+    "order": 10
+  },
+  {
+    "id": 15,
+    "name": "Joan",
+    "role": "Welfare",
+    "photo": "/assets/images/logo.png",
+    "order": 11
+  }
+]

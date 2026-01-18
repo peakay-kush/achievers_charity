@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "assets/images/slider/6957b49405055_1767355540.jpg",
+    "heading": "Bringing Hope to Children",
+    "description": "We visit children's homes to spread love, hope, and support to those who need it most.",
+    "active": true,
+    "order": 1
+  },
+  {
+    "id": 2,
+    "image": "assets/images/slider/6957b5df59a05_1767355871.jpg",
+    "heading": "Community Outreach",
+    "description": "Supporting community members with essential resources and compassionate care.",
+    "active": true,
+    "order": 2
+  },
+  {
+    "id": 3,
+    "image": "assets/images/slider/slide3.jpg",
+    "heading": "Helping the Less Privileged",
+    "description": "Restoring dignity and providing support to those facing hardship in our community.",
+    "active": true,
+    "order": 3
+  }
+]
