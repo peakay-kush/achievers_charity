@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
-Sitemap: https://achieverscharitygroup.co.ke/sitemap.xml
+Sitemap: https://www.achieverscharitygroup.co.ke/sitemap.xml
