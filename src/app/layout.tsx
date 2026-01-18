@@ -22,7 +22,12 @@ export const metadata: Metadata = {
   authors: [{ name: 'Achievers Charity Group' }],
   // Theme color is better handled in viewport export in simple setups or just meta tag
   icons: {
-    icon: '/assets/images/logo.png',
+    icon: [
+      { url: '/assets/images/logo.png' },
+      { url: '/assets/images/logo.png', sizes: '32x32', type: 'image/png' },
+    ],
+    shortcut: '/assets/images/logo.png',
+    apple: '/assets/images/logo.png',
   },
   openGraph: {
     title: 'Achievers Charity Group - Compassion in Action',

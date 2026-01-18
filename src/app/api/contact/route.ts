@@ -10,20 +10,33 @@ export async function POST(req: Request) {
             return NextResponse.json({ message: 'Missing required fields' }, { status: 400 });
         }
 
+        // Check for required environment variables
+        const smtpHost = process.env.SMTP_HOST || 'smtp.gmail.com';
+        const smtpPort = Number(process.env.SMTP_PORT) || 465;
+        const smtpUser = process.env.SMTP_USER;
+        const smtpPass = process.env.SMTP_PASSWORD;
+
+        if (!smtpUser || !smtpPass) {
+            console.error('SMTP Error: Missing SMTP_USER or SMTP_PASSWORD environment variables');
+            return NextResponse.json({ message: 'Mail server configuration missing' }, { status: 500 });
+        }
+
         // Create a transporter using SMTP
         const transporter = nodemailer.createTransport({
-            host: process.env.SMTP_HOST,
-            port: Number(process.env.SMTP_PORT) || 465,
-            secure: Number(process.env.SMTP_PORT) === 465, // true for 465, false for other ports
+            host: smtpHost,
+            port: smtpPort,
+            secure: smtpPort === 465, // true for 465, false for other ports (like 587)
             auth: {
-                user: process.env.SMTP_USER,
-                pass: process.env.SMTP_PASSWORD,
+                user: smtpUser,
+                pass: smtpPass,
             },
+            // Add connection timeout
+            connectTimeout: 10000,
         });
 
-        // Email content
+        const fromName = process.env.SMTP_FROM_NAME || "Achievers Charity Group Contact Form";
         const mailOptions = {
-            from: `"${process.env.SMTP_FROM_NAME}" <${process.env.SMTP_USER}>`,
+            from: `"${fromName}" <${smtpUser}>`,
             to: 'achieverscharitygroup@gmail.com',
             replyTo: email,
             subject: `Contact Form: ${subject}`,
