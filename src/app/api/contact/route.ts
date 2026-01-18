@@ -32,7 +32,7 @@ export async function POST(req: Request) {
             },
             // Add connection timeout
             connectTimeout: 10000,
-        });
+        } as any);
 
         const fromName = process.env.SMTP_FROM_NAME || "Achievers Charity Group Contact Form";
         const mailOptions = {
