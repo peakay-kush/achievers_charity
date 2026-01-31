@@ -22,5 +22,17 @@
     "caption": "",
     "photo": "assets/images/featured/6957c42c61d2d_1767359532.jpeg",
     "order": 4
+  },
+  {
+    "id": 5,
+    "caption": "",
+    "photo": "/assets/images/featured/1769538406364_achiev1.jpg",
+    "order": 5
+  },
+  {
+    "id": 6,
+    "caption": "",
+    "photo": "/assets/images/featured/1769538420744_achieve2.jpg",
+    "order": 6
   }
 ]
